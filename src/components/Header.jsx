@@ -5,11 +5,13 @@ import mujer2 from '../assets/imgs/Adjustments.jpeg';
 
 function Header() {
     return (
-        <div>
-            <style jsx>{
+        <div className="header">
+            <style jsx>{`
+            .header {
+                border: 2px solid red;
+            }`
 
             }</style>
-            <img src={mujer2}/>
             <Links/>
         </div>
     );
