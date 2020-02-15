@@ -16,9 +16,7 @@ class App extends React.Component{
     return (
       <div>
       <style jsx global>{`
-        body {
-          border: 5px solid yellow;
-        }
+
         `}</style>
         <Header/>
         <BrowserRouter>

@@ -14,7 +14,7 @@ function Footer(){
           border: 2px solid blue;
       }
       `}</style>
-      <h1>Footer test</h1>
+      <h1>FT</h1>
     </div>
   );
 }
