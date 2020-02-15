@@ -5,19 +5,19 @@ function Splash(){
     return (
         <div className="parent">
             <style jsx>{`
-            .temporary {
-                justify-content: center;
-            }
-                .temporary img {
+                 .parent {
+                    display: flex;
+                            
+                }
+
+            .temporary img {
                     width: 50%;
+                    padding: 25%;
             }
-            .parent {
-                display: flex;
-                
-            }
+
             `}</style>
             <div className="temporary">
-            <img src={temporary}/>
+                <img src={temporary}/>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Splash from './components/Splash';
 import Error404 from './components/Error404';
-import './App.css';
+
 
 
 class App extends React.Component{
