@@ -11,10 +11,10 @@ function Footer(){
     <div className="footer">
       <style jsx>{`
       .footer {
-          border: 2px solid blue;
+          
       }
       `}</style>
-      <h1>FT</h1>
+      <h5>© 2020 The Pheonix Library</h5>
     </div>
   );
 }

@@ -1,24 +1,19 @@
 import React from 'react';
-import temporary from '../assets/imgs/temporary.png'
+import temporary from '../assets/imgs/temporary.png';
+import AshleyCard from './mujeres files/AshleyCard';
 
 function Splash(){
     return (
-        <div className="parent">
+        <div>
             <style jsx>{`
-                 .parent {
-                    display: flex;
-                            
-                }
-
-            .temporary img {
-                    width: 50%;
-                    padding: 25%;
+            img {
+                width: 100%;
             }
-
             `}</style>
-            <div className="temporary">
+            <div>
                 <img src={temporary}/>
             </div>
+            <AshleyCard/>
         </div>
     );
 }
