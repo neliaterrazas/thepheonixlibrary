@@ -1,9 +1,9 @@
 import React from 'react';
-import Crystal from '../../assets/imgs/Crystal.jpeg';
+import Nova from '../../assets/imgs/Nova.jpeg';
 import { Link } from "react-router-dom";
 
 
-function CrystalCard() {
+function NovaCard() {
     return (
         <div>
             <style jsx>{`
@@ -14,11 +14,11 @@ function CrystalCard() {
 
             </style>
             <div>
-               <Link to="/Crystal"><img src={Crystal}/></Link>
+               <Link to="/Nova"><img src={Nova}/></Link>
             </div>
 
         </div> 
     );
 }
 
-export default CrystalCard;
+export default NovaCard;

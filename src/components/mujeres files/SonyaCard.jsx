@@ -1,9 +1,9 @@
 import React from 'react';
-import Crystal from '../../assets/imgs/Crystal.jpeg';
+import Sonya from '../../assets/imgs/Sonya.jpeg';
 import { Link } from "react-router-dom";
 
 
-function CrystalCard() {
+function SonyaCard() {
     return (
         <div>
             <style jsx>{`
@@ -14,11 +14,11 @@ function CrystalCard() {
 
             </style>
             <div>
-               <Link to="/Crystal"><img src={Crystal}/></Link>
+               <Link to="/Sonya"><img src={Sonya}/></Link>
             </div>
 
         </div> 
     );
 }
 
-export default CrystalCard;
+export default SonyaCard;

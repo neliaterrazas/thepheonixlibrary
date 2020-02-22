@@ -1,6 +1,6 @@
 import React from 'react';
 import Ashley from '../../assets/imgs/Ashley.jpeg';
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function AshleyCard() {
@@ -17,7 +17,7 @@ function AshleyCard() {
                <Link to="/Ashley"><img src={Ashley}/></Link>
             </div>
 
-        </div>
+        </div> 
     );
 }
 
