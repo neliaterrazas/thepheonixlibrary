@@ -24,6 +24,12 @@ class App extends React.Component{
   render(){
     return (
       <div>
+        <style global jsx>{`
+          body {
+            background-color: #CAE4DB;
+          }
+        `}
+        </style>
 
         <Header/>
         <BrowserRouter>
